@@ -162,8 +162,8 @@ class ProductDetailPage extends StatelessWidget {
           children: [
             Image.network(
               product.imagePath,
-              width: double.infinity,
-              height: 250,
+              width: 1700,
+              height: 500,
               fit: BoxFit.cover,
               semanticLabel: product.name,
             ),
